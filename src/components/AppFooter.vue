@@ -4,6 +4,7 @@
 footer {
   background: var(--secondary-background-color);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   border: 1px solid black;
 }

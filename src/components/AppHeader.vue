@@ -7,6 +7,7 @@ import HeaderSearchBar from "@/components/HeaderSearchBar.vue";
 header {
   background: var(--secondary-background-color);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border: 1px solid black;
   align-items: center;

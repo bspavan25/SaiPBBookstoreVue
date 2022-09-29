@@ -4,10 +4,10 @@ import { CategoryItem } from "@/types";
 import AppHeader from "@/components/AppHeader.vue";
 import AppFooter from "@/components/AppFooter.vue";
 const categoryList: CategoryItem[] = [
-  { categoryId: 1001, name: "Classics" },
-  { categoryId: 1002, name: "Fantasy" },
-  { categoryId: 1003, name: "Mystery" },
-  { categoryId: 1004, name: "Romance" },
+  { categoryId: 1001, name: "Scify" },
+  { categoryId: 1002, name: "Fiction" },
+  { categoryId: 1003, name: "Drama" },
+  { categoryId: 1004, name: "Tech" },
 ];
 provide("categoryList", categoryList);
 </script>

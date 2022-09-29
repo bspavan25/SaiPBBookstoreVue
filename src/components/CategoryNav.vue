@@ -17,7 +17,7 @@ const categoryList = inject("categoryList");
   align-items: center;
   padding: 0.5em;
   background-color: var(--primary-color);
-  width: 13.7em;
+  width: 30%;
   font-size: 19px;
   font-family: var(--title-font-family);
   border: 1px solid black;
@@ -75,7 +75,7 @@ const categoryList = inject("categoryList");
           :to="'../category/' + category.name"
           class="category-side-bar-button"
           :class="
-            category.name == 'Classics'
+            category.name == 'Scify'
               ? 'selected-category-button'
               : 'unselected-category-button'
           "

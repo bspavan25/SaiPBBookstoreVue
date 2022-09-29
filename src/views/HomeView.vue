@@ -17,7 +17,7 @@
 
 .hero-text {
   font-family: var(--title-font-family);
-  font-size: 33px;
+  font-size: 200%;
   color: var(--primary-background-color);
   padding: 1.5em;
   text-align: center;
@@ -29,8 +29,8 @@
 
 .cta-button {
   display: inline-block;
-  width: 230px;
-  height: 69px;
+  width: 72%;
+  height: 15%;
   background-color: var(--primary-background-color);
   color: var(--primary-color-dark);
   text-decoration: none;
@@ -42,9 +42,9 @@
 }
 
 .cta-button:hover {
-  width: 235px;
-  height: 69px;
-  font-size: 32px;
+  width: 72%;
+  height: 15%;
+  font-size: 30px;
   color: var(--secondary-background-color);
   border: 3px solid var(--secondary-background-color);
   background-color: var(--primary-color-dark);

@@ -21,13 +21,14 @@ const props = defineProps<{
   align-content: center;
   padding: 0.5em;
   border: 1px solid black;
-  width: 60em;
-  height: 34em;
+  width: 100%;
+  height: 100%;
 }
 
 .category-sort-bar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0.8em;
   margin: 0.5em;
