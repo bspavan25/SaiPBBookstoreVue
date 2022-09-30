@@ -42,22 +42,22 @@ const bookImageFileName = function (book: BookItem): string {
   justify-content: center;
   background-color: #0008;
   color: white;
-  transform: translateY(-6em);
-  margin-bottom: -1.6em;
-  width: 150px;
-  height: 60px;
-  padding: 0.1em;
+  transform: translateY(-200%);
+  margin-bottom: -30%;
+  width: 100%;
+  height: 30%;
+  /*padding: 0.1em;*/
   border-radius: 3px;
-  font-size: 25px;
+  font-size: 170%;
 }
 
 .read-now-button:hover {
   cursor: pointer;
   color: var(--primary-background-color);
   font-weight: bold;
-  font-size: 30px;
-  transform: translateY(-5em);
-  margin-bottom: -1.6em;
+  font-size: 190%;
+  transform: translateY(-200%);
+  margin-bottom: -30%;
   /* background-color: black; */
 }
 
@@ -105,7 +105,7 @@ const bookImageFileName = function (book: BookItem): string {
         <img
           :src="require('@/assets/images/books/' + bookImageFileName(book))"
           :alt="book.title"
-          style="width: 150px; height: 230px"
+          style="width: 100%; height: 100%"
         />
         <div v-if="book.readNow == true" class="read-now-button">
           <i class="fa-brands fa-readme"></i>

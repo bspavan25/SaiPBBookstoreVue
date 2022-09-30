@@ -6,21 +6,22 @@ const categoryList = inject("categoryList");
 <style scoped>
 .categories-text-logo {
   font-family: var(--title-font-family);
-  font-size: 30px;
+  font-size: 140%;
   color: white;
-  padding: 20px;
+  padding: 10%;
 }
 
 .category-side-bar {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   padding: 0.5em;
   background-color: var(--primary-color);
   width: 30%;
   font-size: 19px;
   font-family: var(--title-font-family);
   border: 1px solid black;
+  min-width: 10em;
 }
 
 .category-buttons {
@@ -39,7 +40,7 @@ const categoryList = inject("categoryList");
   padding: 0.5em 1em;
   cursor: pointer;
   border-radius: 7px;
-  width: 13em;
+  width: 100%;
 }
 
 .category-side-bar-button:hover,

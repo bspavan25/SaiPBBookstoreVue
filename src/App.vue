@@ -7,7 +7,7 @@ const categoryList: CategoryItem[] = [
   { categoryId: 1001, name: "Scify" },
   { categoryId: 1002, name: "Fiction" },
   { categoryId: 1003, name: "Drama" },
-  { categoryId: 1004, name: "Tech" },
+  { categoryId: 1004, name: "Technology" },
 ];
 provide("categoryList", categoryList);
 </script>

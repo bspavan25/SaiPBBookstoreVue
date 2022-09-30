@@ -34,9 +34,8 @@
   background-color: var(--primary-background-color);
   color: var(--primary-color-dark);
   text-decoration: none;
-  padding: 0.5em 1em;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 0px;
   align-items: center;
 }
@@ -44,7 +43,6 @@
 .cta-button:hover {
   width: 72%;
   height: 15%;
-  font-size: 30px;
   color: var(--secondary-background-color);
   border: 3px solid var(--secondary-background-color);
   background-color: var(--primary-color-dark);
@@ -52,7 +50,7 @@
 
 .cta-label {
   font-family: var(--title-font-family);
-  font-size: 30px;
+  font-size: 200%;
 }
 
 .category-image-items a {
@@ -81,7 +79,7 @@
     <section class="welcome-text">
       <div class="hero-text">AMAZING eBOOKS FOR GREAT DEALS</div>
       <button class="cta-button">
-        <p class="cta-label">SHOP NOW!!</p>
+        <div class="cta-label">SHOP NOW!!</div>
       </button>
     </section>
   </div>
